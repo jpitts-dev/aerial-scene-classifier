@@ -44,3 +44,5 @@ Accessed via Kaggle: https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
 - Installed dependencies: PyTorch, Torch, Torchvision, Matplotlib, Pandas, Pillow, Scikit-learn, Streamlit
 - Downloaded EuroSAT RGB dataset and structured into data/ directory
 - Added data/ to .gitignore to exclude large files from version control
+- Created notebook.ipynb with formal lab report structure
+- Wrote Abstract and Introduction
