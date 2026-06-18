@@ -6,19 +6,19 @@ navigation.
 
 ## Project Overview
 
-This project trains a ResNet18 convolutional neural network on the EuroSAT dataset — 27,000 satellite images across 
+This project trains a ResNet18 convolutional neural network on the EuroSAT dataset - 27,000 satellite images across 
 10 land use categories collected from the Sentinel-2 satellite. The model learns to distinguish terrain types including
 forests, highways, residential areas, rivers, and more.
 
 ## Use Case
 
 Autonomous drones and robotic systems need to understand what they are looking at.
-This classifier simulates that capability — given an aerial image, the model identifies the terrain type below.
+This classifier simulates that capability, given an aerial image, the model identifies the terrain type below.
 This has direct applications in autonomous navigation, aerial reconnaissance, and geospatial intelligence.
 
 ## Dataset
 
-EuroSAT RGB dataset — 27,000 images, 10 classes, 64x64 pixels per image.  
+EuroSAT RGB dataset - 27,000 images, 10 classes, 64x64 pixels per image.  
 Original research: Helber et al., IEEE Journal of Selected Topics in Applied Earth Observations and
 Remote Sensing, 2019.  
 Accessed via Kaggle: https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
@@ -46,3 +46,13 @@ Accessed via Kaggle: https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
 - Added data/ to .gitignore to exclude large files from version control
 - Created notebook.ipynb with formal lab report structure
 - Wrote Abstract and Introduction
+
+### Session 2 - Data Analysis
+**Date:** June 18, 2026
+**Summary:** Began coding with exploratory data analysis of the EuroSAT dataset.
+
+- Loaded dataset folder structure and confirmed all 10 terrain classes
+- Counted images per class and identified slight class imabalance (2,000 to 3,000 images per class)
+- Visualized class distribution as a bar chart
+- Displayed sample images from each terrain class
+- Identified AnnualCrop, PermanentCrop, and Pasture as visually similar classes likely to challenge the model
