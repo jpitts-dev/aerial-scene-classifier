@@ -37,6 +37,7 @@ Accessed via Kaggle: https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
 
 ### Session 1 - Project Setup
 **Date:** June 16, 2026
+
 **Summary:** Environment configuration, dependency installation, and dataset acquisition.
 
 - Initialized GitHub repository and cloned locally
@@ -49,10 +50,13 @@ Accessed via Kaggle: https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
 
 ### Session 2 - Data Analysis
 **Date:** June 18, 2026
+
 **Summary:** Began coding with exploratory data analysis of the EuroSAT dataset.
 
 - Loaded dataset folder structure and confirmed all 10 terrain classes
-- Counted images per class and identified slight class imabalance (2,000 to 3,000 images per class)
+- Counted images per class and identified slight class imbalance (2,000 to 3,000 images per class)
 - Visualized class distribution as a bar chart
 - Displayed sample images from each terrain class
 - Identified AnnualCrop, PermanentCrop, and Pasture as visually similar classes likely to challenge the model
+- Defined image transformation pipeline for ResNet18 compatibility
+- Loaded dataset using ImageFolder and split into training, validation, and test sets (80/10/10)
