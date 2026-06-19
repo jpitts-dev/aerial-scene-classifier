@@ -63,3 +63,15 @@ Accessed via Kaggle: https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
 - Loaded pretrained ResNet18 and replaced final classification layer for 10 terrain classes
 - Froze pretrained layers to enable transfer of learning
 - Defined CrossEntropyLoss loss function and Adam optimizer
+
+### Session 3 - Model Training
+**Date:** June 19, 2026
+
+**Summary:** Wrote and ran the training loop, achieving 92.33% validation accuracy.
+
+- Updated Methods section
+- Revised Abstract and Introduction
+- Added training section to notebook
+- Trained ResNet18 transfer learning model for 5 rounds on CPU
+- Achieved 91.60% training accuracy and 92.33% validation accuracy
+- Saved trained model to model.pth
