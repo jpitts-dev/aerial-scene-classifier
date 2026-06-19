@@ -60,3 +60,6 @@ Accessed via Kaggle: https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
 - Identified AnnualCrop, PermanentCrop, and Pasture as visually similar classes likely to challenge the model
 - Defined image transformation pipeline for ResNet18 compatibility
 - Loaded dataset using ImageFolder and split into training, validation, and test sets (80/10/10)
+- Loaded pretrained ResNet18 and replaced final classification layer for 10 terrain classes
+- Froze pretrained layers to enable transfer of learning
+- Defined CrossEntropyLoss loss function and Adam optimizer
