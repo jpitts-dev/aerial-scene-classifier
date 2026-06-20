@@ -90,3 +90,13 @@ Accessed via Kaggle: https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
 - Added References section
 - Added Environment section with library versions
 - Cleaned up training and evaluation code for readability
+
+### Session 5 - Code Cleanup and Standalone Script
+**Date:** June 20, 2026
+
+**Summary:** Finalized notebook comments, completed written sections review, and built standalone training script.
+
+- Added comments to all code cells in the notebook
+- Reviewed and finalized all written sections
+- Built *train.py* as a standalone training script
+- Verified *train.py* runs correctly from the terminal
