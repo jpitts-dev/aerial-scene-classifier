@@ -75,3 +75,18 @@ Accessed via Kaggle: https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
 - Trained ResNet18 transfer learning model for 5 rounds on CPU
 - Achieved 91.60% training accuracy and 92.33% validation accuracy
 - Saved trained model to model.pth
+
+### Session 4 - Evaluation and Written Analysis
+**Date:** June 20, 2026
+
+**Summary:** Evaluated model performance and complete all written sections of the notebook.
+
+- Evaluated model on test set, achieving 92.00% accuracy
+- Generated per class accuracy breakdown
+- Visualized per class accuracy with a bar chart
+- Identified River and PermanentCrop as weakest performing classes
+- Wrote Discussion section analyzing model strengths and weaknesses
+- Wrote Conclusion section
+- Added References section
+- Added Environment section with library versions
+- Cleaned up training and evaluation code for readability
