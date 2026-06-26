@@ -23,13 +23,18 @@ Original research: Helber et al., IEEE Journal of Selected Topics in Applied Ear
 Remote Sensing, 2019.  
 Accessed via Kaggle: https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
 
+## Results
+
+The model achieved 92% accuracy on the test set across 10 terrain categories.Strongest performance was on 
+SeaLake (100%) and FOrest (99.31%).The most challenging categories were River (78.95%) and
+PermanentCrop (81.62%), likely due to visual similarity with other classes.
+
 ## Tech Stack
 
 - Python 3.12
 - PyTorch & Torchvision
 - ResNet18 (pretrained, transfer learning)
 - Matplotlib
-- Streamlit
 
 ## Development Log
 
