@@ -73,6 +73,9 @@ val_size = int(0.1 * total_size)
 # The test set gets whatever is left after training and validation
 test_size = total_size - train_size - val_size
 
+# Random seed for reproducibility
+torch.manual_seed(42)
+
 # Randomly split the dataset into training, validation, and test subsets
 train_dataset, val_dataset, test_dataset = random_split(
     full_dataset, [train_size, val_size, test_size]
